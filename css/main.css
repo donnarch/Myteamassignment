@@ -1,0 +1,251 @@
+/* livvic-500italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Livvic";
+  font-style: italic;
+  font-weight: 500;
+  src: url("../fonts/livvic-v14-latin-500italic.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* livvic-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/livvic-v14-latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* livvic-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/livvic-v14-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* livvic-700italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Livvic";
+  font-style: italic;
+  font-weight: 700;
+  src: url("../fonts/livvic-v14-latin-700italic.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+img {
+  display: flex;
+  object-fit: cover;
+}
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: "Livvic", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 25px;
+  color: #fff;
+  background-color: #014e56;
+}
+main {
+  flex-grow: 1;
+}
+h1 {
+  margin: 0;
+}
+.active {
+  color: #f67e7e;
+}
+.container {
+  width: 100%;
+  max-width: 1170px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+.btn {
+  border: 2px solid transparent;
+  border-radius: 24px;
+  padding: 9px 33px 11px 32px;
+  font-size: 18px;
+  line-height: 28px;
+}
+.primary-btn {
+  border-color: #fff;
+  color: #fff;
+
+  &:hover {
+    background-color: #fff;
+    color: #002529;
+  }
+}
+.primary-dark-btn {
+  border-color: #002529;
+  color: #012f34;
+
+  &:hover {
+    background-color: #012f34;
+    color: #fff;
+  }
+}
+.secondary-btn {
+  background-color: #fff;
+  color: #002529;
+  &:hover {
+    background-color: #79c8c7;
+  }
+}
+.header {
+  padding-top: 73px;
+  padding-bottom: 73px;
+}
+.header__container {
+  display: flex;
+  align-items: center;
+}
+.site-logo {
+  margin-right: 80px;
+  &:hover {
+    opacity: 0.6;
+  }
+}
+.sitenav {
+  margin-right: auto;
+}
+.sitenav__list {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+.sitenav__item {
+}
+.sitenav__link {
+  font-size: 18px;
+  line-height: 28px;
+  color: #fff;
+
+  &:hover {
+    color: #f67e7e;
+  }
+}
+
+.orange-text {
+  color: #f67e7e;
+}
+
+.divider {
+  display: inline-block;
+  width: 50px;
+  height: 4px;
+}
+
+.hero-divider {
+  margin-bottom: 79px;
+  background-color: #79c8c7;
+}
+.footer__cta {
+  background-color: #f67e7e;
+  padding-top: 76px;
+  padding-bottom: 76px;
+  background-image: url("/images/bg-pattern-home-6-about-5.svg");
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+.footer__cta__title {
+  font-size: 48px;
+  font-weight: 700;
+}
+.footer {
+}
+.footer__cta {
+}
+.container {
+}
+.footer__cta__title {
+}
+.footer__cta__btn {
+}
+.btn {
+}
+.primary-dark-btn {
+}
+.footer__container {
+  background-color: #002529;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  .container {
+    display: flex;
+  }
+}
+.footer-logo-nav {
+  margin-right: 125px;
+  .site-logo {
+    margin-bottom: 25px;
+  }
+}
+
+.sitenav {
+}
+.sitenav__list {
+}
+.sitenav__item {
+}
+.sitenav__link {
+}
+.footer-info {
+  margin-right: auto;
+  address {
+    opacity: 0.6;
+    font-style: normal;
+  }
+}
+.footer-social {
+}
+.footer-social__list {
+  display: flex;
+  justify-content: flex-end;
+  gap: 16px;
+  margin-bottom: 51px;
+  align-items: center;
+}
+.footer-social__item {
+  :hover svg path {
+    fill: #f67e7e;
+  }
+}
+.footer-social__link {
+}
+.footer-social__copyright {
+  opacity: 0.6;
+}
+.blue-text {
+  color: #79c8c7;
+}
