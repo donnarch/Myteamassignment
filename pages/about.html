@@ -3,9 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>MyTeam | About</title>
+    <title>MyTeam | Home</title>
     <link rel="stylesheet" href="../css/about.css" />
-    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
     <header class="header">
@@ -16,17 +16,142 @@
         <nav class="sitenav">
           <ul class="sitenav__list">
             <li class="sitenav__item">
-              <a href="../index.html" class="sitenav__link">home</a>
+              <a id="active" href="../index.html" class="sitenav__link">home</a>
             </li>
             <li class="sitenav__item">
-              <a id="active" href="" class="sitenav__link">about</a>
+              <a href="" class="sitenav__link">about</a>
             </li>
           </ul>
         </nav>
         <a href="" class="btn primary-btn">contact us</a>
       </div>
     </header>
-    <main class="main"></main>
+    <main class="main">
+      <section class="hero">
+        <div class="hero__container container">
+          <h1 class="hero__title">About</h1>
+          <div class="hero__description">
+            <span class="divider hero-divider"></span>
+            <p class="hero__description__text">
+              We help companies build dynamic teams made up of top global
+              talent. Using our network of passionate professionals we drive
+              innovation and deliver incredible outcomes. Talented, diverse
+              teams shape the best products and experiences. We’ll bring those
+              teams to you.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="directors-section">
+        <h1 class="section-title">Meet the directors</h1>
+        <div class="directors-grid">
+          <!-- Director Card 1 -->
+          <div class="director-card">
+            <img
+              src="../images/avatar-nikita.jpg"
+              alt="Nikita Marks"
+              class="director-img"
+            />
+            <h3 class="director-name">Nikita Marks</h3>
+            <p class="director-role">Founder & CEO</p>
+          </div>
+
+          <!-- Director Card 2 -->
+          <div class="director-card">
+            <img
+              src="../images/avatar-christian.jpg"
+              alt="Cristian Duncan"
+              class="director-img"
+            />
+            <h3 class="director-name">Cristian Duncan</h3>
+            <p class="director-role">Co-founder & COO</p>
+          </div>
+
+          <!-- Director Card 3 -->
+          <div class="director-card">
+            <img
+              src="../images/avatar-cruz.jpg"
+              alt="Cruz Hamer"
+              class="director-img"
+            />
+            <h3 class="director-name">Cruz Hamer</h3>
+            <p class="director-role">Co-founder & CFO</p>
+          </div>
+
+          <!-- Director Card 4 -->
+          <div class="director-card">
+            <img
+              src="../images/avatar-drake.jpg"
+              alt="Droke Heston"
+              class="director-img"
+            />
+            <h3 class="director-name">Droke Heston</h3>
+            <p class="director-role">Business Development Lead</p>
+          </div>
+
+          <!-- Director Card 5 -->
+          <div class="director-card">
+            <img
+              src="../images/avatar-griffin.jpg"
+              alt="Griffin Wise"
+              class="director-img"
+            />
+            <h3 class="director-name">Griffin Wise</h3>
+            <p class="director-role">Lead Marketing</p>
+          </div>
+
+          <!-- Director Card 6 (Quote) -->
+          <div class="director-card quote-card">
+            <p class="quote-text">
+              “Empowered teams create truly amazing products. Set the north star
+              and let them follow it.”
+            </p>
+            <p class="quote-author">Aden Allen</p>
+          </div>
+        </div>
+      </section>
+      <section class="clients-section">
+        <h2 class="section-title">Some of our clients</h2>
+        <div class="clients-grid">
+          <!-- Each logo is now a clickable link -->
+          <a
+            href="../images/logo-the-verge.png"
+            target="_blank"
+            class="client-logo"
+          >
+            THE VERGE
+          </a>
+          <a
+            href="../images/logo-jakarta-post.png"
+            target="_blank"
+            class="client-logo"
+          >
+            TheJakartaPost
+          </a>
+          <a
+            href="../images/logo-the-guardian.png"
+            target="_blank"
+            class="client-logo"
+          >
+            The Guardian
+          </a>
+          <a
+            href="../images/logo-tech-radar.png"
+            target="_blank"
+            class="client-logo"
+          >
+            techradar
+          </a>
+          <a
+            href="../images/logo-gadgets-now.png"
+            target="_blank"
+            class="client-logo"
+          >
+            GADGETS NOW
+          </a>
+        </div>
+      </section>
+    </main>
     <footer class="footer">
       <div class="footer__cta">
         <div class="container">
@@ -42,15 +167,15 @@
         <div class="container">
           <div class="footer-logo-nav">
             <a class="site-logo" href="">
-              <img src="./images/logo.svg" alt="" width="160" height="40" />
+              <img src="../images/logo.svg" alt="" width="160" height="40" />
             </a>
             <nav class="sitenav">
               <ul class="sitenav__list">
                 <li class="sitenav__item">
-                  <a id="active" href="" class="sitenav__link">home</a>
+                  <a id="active" href="./contact.html" class="sitenav__link">home</a>
                 </li>
                 <li class="sitenav__item">
-                  <a href="" class="sitenav__link">about</a>
+                  <a href="./about.html" class="sitenav__link">about</a>
                 </li>
               </ul>
             </nav>
